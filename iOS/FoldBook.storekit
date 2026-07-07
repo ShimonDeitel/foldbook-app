@@ -1,0 +1,42 @@
+{
+  "identifier": "foldbook",
+  "nonRenewingSubscriptions": [],
+  "products": [],
+  "settings": {
+    "_askToBuyEnabled": false
+  },
+  "subscriptionGroups": [
+    {
+      "id": "21500000",
+      "localizations": [],
+      "name": "FoldBook Pro",
+      "subscriptions": [
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "1.99",
+          "familyShareable": false,
+          "groupNumber": 1,
+          "internalID": "foldbook_pro_monthly",
+          "introductoryOffer": null,
+          "localizations": [
+            {
+              "description": "Track your paper stash sorted by size, weight, and pattern.",
+              "displayName": "FoldBook Pro",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "foldbook_pro_monthly",
+          "recurringSubscriptionPeriod": "P1M",
+          "referenceName": "FoldBook Pro Monthly",
+          "subscriptionGroupID": "21500000",
+          "type": "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}
