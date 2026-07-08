@@ -8,14 +8,7 @@ struct Model: Identifiable, Codable, Equatable {
     var foldCount: Int
     var createdDate: Date
 
-    init(
-        id: UUID = UUID(),
-        modelName: String = "Crane",
-        paperType: String = "Kami 6in",
-        difficulty: String = "Intermediate",
-        foldCount: Int = 24,
-        createdDate: Date = Date()
-    ) {
+    init(id: UUID = UUID(), modelName: String = "Crane", paperType: String = "Kami 6in", difficulty: String = "Intermediate", foldCount: Int = 24, createdDate: Date = Date()) {
         self.id = id
         self.modelName = modelName
         self.paperType = paperType
@@ -34,14 +27,7 @@ struct FBProEntry: Identifiable, Codable, Equatable {
     var pattern: String
     var createdDate: Date
 
-    init(
-        id: UUID = UUID(),
-        sheetName: String = "Origamido Vellum",
-        size: String = "15cm",
-        weight: String = "90",
-        pattern: String = "Solid Red",
-        createdDate: Date = Date()
-    ) {
+    init(id: UUID = UUID(), sheetName: String = "Origamido Vellum", size: String = "15cm", weight: String = "90", pattern: String = "Solid Red", createdDate: Date = Date()) {
         self.id = id
         self.sheetName = sheetName
         self.size = size
